@@ -1,0 +1,94 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f1f2f6;
+}
+
+.container{
+    margin: 60px auto;
+    padding: 0px;
+    background: #f1f2f6;
+
+    display: flex;
+    flex-direction: row;
+}
+
+ .container .col{
+    display: inline-block;
+    width: 30%;
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.container .colAlto{
+    height: 500px;
+}
+
+.container .colAncho{
+
+    width: 100%;
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+}
+.container .col nav{
+    
+} 
+.container .col nav ul{
+    list-style: none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;.
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    width: 100%;
+    position: relative;
+    right: 40px;
+    bottom: 20px;
+}
+
+
+.container .col nav ul li {
+    display: block;
+
+}
+
+
+
+.container .col nav ul li a {
+    box-sizing: border-box;
+    display: table;
+    text-align: right;
+    background: #33373d;
+    color: #85878b;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -ms-transition-property: color;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container .col nav ul li a:hover{
+    display: block;
+    width: 100%;
+    padding:  15px 25px;
+    background-color: #ee5253;
+    color: #f1f2f6;
+
+}
